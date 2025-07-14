@@ -1,0 +1,33 @@
+.todo-input-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input-form input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.todo-input-form input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+.todo-input-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-input-form button:hover {
+  background-color: #0056b3;
+}
